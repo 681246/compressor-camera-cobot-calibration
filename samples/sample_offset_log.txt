@@ -1,0 +1,9 @@
+START | Compressor calibration demo
+LOAD  | common reference gantry and cobot pose
+LOAD  | target inspection gantry and cobot pose
+CALC  | form gantry matrix
+CALC  | form cobot matrix
+CALC  | calculate pose difference
+CALC  | apply compressor offset
+RESULT| corrected gantry pose and corrected cobot pose
+END   | calibration demo completed

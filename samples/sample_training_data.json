@@ -1,0 +1,18 @@
+{
+  "project": "compressor_camera_cobot_calibration_demo",
+  "units": {
+    "gantry_translation": "mm",
+    "cobot_translation": "mm",
+    "cobot_rotation": "axis_angle_radians",
+    "compressor_offset_rotation": "degrees"
+  },
+  "common_reference": {
+    "gantry": [1000.0, 2000.0, 500.0],
+    "cobot": [100.0, 200.0, 300.0, 0.0, 0.0, 0.0]
+  },
+  "target_reference": {
+    "gantry": [1200.0, 2100.0, 550.0],
+    "cobot": [110.0, 220.0, 320.0, 0.1, 0.2, 0.3]
+  },
+  "compressor_offset": [2.0, 1.0, 0.0, 0.0, 0.0, 1.5]
+}

@@ -1,0 +1,8 @@
+{
+  "input_offset": [2.0, 1.0, 0.0, 0.0, 0.0, 1.5],
+  "expected_processing": {
+    "gantry_offset_part": [2.0, 1.0, 0.0],
+    "cobot_offset_part": [0.0, 0.0, 0.0, "rx_rad", "ry_rad", "rz_rad"]
+  },
+  "output_description": "The program returns corrected gantry XYZ and cobot pose values after matrix-based offset calculation."
+}

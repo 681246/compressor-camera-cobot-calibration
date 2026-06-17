@@ -1,0 +1,3 @@
+numpy
+pytest
+# Install RoboDK Python package separately if required by your local RoboDK setup.

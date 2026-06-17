@@ -1,0 +1,12 @@
+flowchart TD
+    A[Start Calibration] --> B[Load Common Reference Pose]
+    B --> C[Load Target / Checkpoint Pose]
+    C --> D[Create Gantry Matrix]
+    D --> E[Create Cobot Matrix]
+    E --> F[Combine World Transform]
+    F --> G[Calculate Pose Difference]
+    G --> H[Apply Compressor Offset]
+    H --> I[Split Gantry XYZ Correction]
+    H --> J[Split Cobot Rotation Correction]
+    I --> K[Corrected Inspection Movement]
+    J --> K
